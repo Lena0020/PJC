@@ -1,0 +1,6 @@
+C:/Users/Lena/CLionProjects/TutorialTask/cmake-build-debug/CMakeFiles/PJC.dir
+C:/Users/Lena/CLionProjects/TutorialTask/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Lena/CLionProjects/TutorialTask/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Lena/CLionProjects/TutorialTask/cmake-build-debug/_deps/fmt-build/CMakeFiles/fmt.dir
+C:/Users/Lena/CLionProjects/TutorialTask/cmake-build-debug/_deps/fmt-build/CMakeFiles/edit_cache.dir
+C:/Users/Lena/CLionProjects/TutorialTask/cmake-build-debug/_deps/fmt-build/CMakeFiles/rebuild_cache.dir

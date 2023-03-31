@@ -1,0 +1,21 @@
+# ninja log v5
+0	113	7019726187691297	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-mkdir	29cc9593db9b2da5
+0	113	7019726187691297	C:/Users/Lena/CLionProjects/TutorialTask/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-mkdir	29cc9593db9b2da5
+114	7321	7019726260338531	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-download	aefa08c5b0968470
+114	7321	7019726260338531	C:/Users/Lena/CLionProjects/TutorialTask/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-download	aefa08c5b0968470
+7321	7413	0	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-update	d200356b8561d257
+7321	7413	0	C:/Users/Lena/CLionProjects/TutorialTask/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-update	d200356b8561d257
+7413	7480	7019726261920150	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-patch	51879d9e84fb3cb1
+7413	7480	7019726261920150	C:/Users/Lena/CLionProjects/TutorialTask/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-patch	51879d9e84fb3cb1
+7480	7535	7019726262458719	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-configure	eacebbe2c7022217
+7480	7535	7019726262458719	C:/Users/Lena/CLionProjects/TutorialTask/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-configure	eacebbe2c7022217
+7535	7588	7019726262997508	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-build	51d3906010133a22
+7535	7588	7019726262997508	C:/Users/Lena/CLionProjects/TutorialTask/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-build	51d3906010133a22
+7589	7649	7019726263555790	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-install	e80eea89a36efb62
+7589	7649	7019726263555790	C:/Users/Lena/CLionProjects/TutorialTask/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-install	e80eea89a36efb62
+7649	7734	7019726264433451	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-test	801c4546d60b6178
+7649	7734	7019726264433451	C:/Users/Lena/CLionProjects/TutorialTask/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-test	801c4546d60b6178
+7734	7810	7019726265191409	CMakeFiles/fmt-populate-complete	309c34744e73498b
+7734	7810	7019726265191409	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-done	309c34744e73498b
+7734	7810	7019726265191409	C:/Users/Lena/CLionProjects/TutorialTask/cmake-build-debug/_deps/fmt-subbuild/CMakeFiles/fmt-populate-complete	309c34744e73498b
+7734	7810	7019726265191409	C:/Users/Lena/CLionProjects/TutorialTask/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-done	309c34744e73498b
