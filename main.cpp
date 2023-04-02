@@ -3,11 +3,8 @@
 #include <vector>
 #include <cmath>
 #include <string>
+#include <set>
 #include "fmt/ranges.h"
-
-#define WSMAN_API_VERSION_1_1
-
-
 #define GETMAX
 #define GETMIN
 
@@ -28,6 +25,7 @@ bool isPrime (int v);
 std::vector<std::string> move_by_vowels(std::vector<std::string> vec);
 std::pair<std::vector<int>, std::vector<int>> split_vector(std::vector<int>& vec);
 double compute_median(const std::vector<int> vec);
+std::vector<std::string> filter(std::vector<std::string> vec, std::set<std::string> set);
 
 int main() {
     //Task 1
@@ -81,6 +79,22 @@ int main() {
     //fmt::print("{}\n", vec);
     std::ranges::partition(vec, [](int x) -> bool{return x%2!=0;});
     fmt::print("{}\n", vec);
+
+
+    auto vec3 = std::vector<int>{3,4,2,5,6,1};
+    auto set = std::set<int>(vec3.begin(), vec3.end());
+    vec3.erase(vec3.begin(), vec3.end());
+    for (auto s: set) {
+        vec3.push_back(s);
+    }
+
+    for(auto e : vec3){
+        std::cout << e << ' ';
+    }
+
+    auto vec4 = std::vector<std::string>{"l","m","f","r","a","m"};
+    auto set2 = std::set<std::string>{"l","u","f","i","a","p"};
+    show3(filter(vec4,set2));
 
 }
 //useful in general
@@ -441,3 +455,61 @@ std::pair<std::vector<int>, std::vector<int>> split_vector(std::vector<int>& vec
     std::vector<int> second_half(middle, vec.end());
     return std::make_pair(first_half, second_half);
 }
+
+// TUTORIAL 4
+
+// TASK 1
+
+/*
+   auto vec3 = std::vector<int>{3,4,2,5,6,1};
+    auto set = std::set<int>(vec3.begin(), vec3.end());
+    vec3.erase(vec3.begin(), vec3.end());
+    for (auto s: set) {
+        vec3.push_back(s);
+    }
+
+    for(auto e : vec3){
+        std::cout << e << ' ';
+    }
+
+}
+ */
+
+// TASK 2
+std::vector<std::string> filter(std::vector<std::string> vec, std::set<std::string> set){
+   std::vector<std::string> vec2;
+    for(int i = 0; i< vec.size(); i++){
+      if (!(set.find(vec[i]) != set.end())){
+          vec2.push_back(vec[i]);
+        }
+    }
+    return vec2;
+}
+
+// TASK 3
+
+/*
+int main() {
+    std::map<size_t, std::vector<std::string>> groups;
+    std::string word;
+    std::cout << "Enter words (enter 'stop' to finish):\n";
+    while (std::cin >> word && word != "stop") {
+        auto len = word.length();
+        if (len > 0) {
+            groups[len].push_back(word);
+        }
+    }
+    for (const auto& [len, group] : groups) {
+        std::vector<std::string> uniqueGroup = group;
+        std::sort(uniqueGroup.begin(), uniqueGroup.end());
+        auto last = std::unique(uniqueGroup.begin(), uniqueGroup.end());
+        uniqueGroup.erase(last, uniqueGroup.end());
+        for (const auto& word : uniqueGroup) {
+            std::cout << word << " ";
+        }
+        std::cout << std::endl;
+    }
+    return 0;
+}
+
+ */
