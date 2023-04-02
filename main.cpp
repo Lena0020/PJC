@@ -489,6 +489,12 @@ std::vector<std::string> filter(std::vector<std::string> vec, std::set<std::stri
 // TASK 3
 
 /*
+ #include <iostream>
+#include <string>
+#include <vector>
+#include <map>
+#include <algorithm>
+
 int main() {
     std::map<size_t, std::vector<std::string>> groups;
     std::string word;
